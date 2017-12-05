@@ -1,10 +1,192 @@
 /* ===== CSS STYLES ===== */
 
-fieldset {
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ----- Base Styles ---- */
+
+/*
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+legend {
+  font-size: 16px;
+  font-family: 'Spectral SC', 'Times', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+label,
+input {
+  display: block;
+}
+*/
+
+/* ----- Layout Styles ----- */
+
+.main-header {
+  text-align: center;
+}
+
+.banner-wrapper {
   max-width: 300px;
+  margin: auto;
+  text-align: center;
+  border-bottom: 5px solid;
+}
+
+.form-wrapper {
+  max-width: 300px;
+  margin: 10px auto 0;
+  border-top: 5px solid;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  background-color: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline-color: cornflowerblue;
+  background: white;
+  border: 1px solid cornflowerblue;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+/*
+.main-header {
+  width: 100%;
+  background: #474f54;
+  padding: 25px 0;
+  color: white;
+}
+
+.banner {
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  border-bottom: 10px solid #474f54;
+}
+
+form {
+  width: 90%;
+  margin: 5px auto;
+}
+
+fieldset {
+  border-top: 5px solid #474f54;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+*/
+
+
+/* ----- Font Styles ----- */
+
+body {
+  font-family: 'Playfair Display', 'Times', serif;
+}
+
+/*
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.7em;
+}
+
+p,
+label {
+  color: darkgray;
+  font-size: 1.1em;
+}
+
+span {
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+legend {
+  display: block;
+  font-size: 1.3em;
+}
+*/
+
+
+/* ----- DRY Styles ----- */
+
+/*
+.container {
+  text-align: center;
   margin: 0 auto;
 }
 
-input {
+fieldset {
+  margin-top: 15px;
+}
+
+legend {
+  padding-top: 25px;
   width: 100%;
+}
+*/
+
+
+
+/* ----- Media Queries -----*/
+
+@media (min-width: 768px) {
+  
+  
+  
 }
