@@ -9,7 +9,7 @@
 /* ----- Base Styles ---- */
 
 body {
-  background-color: rgba(0,0,0,0.03);
+  background-color: rgba(0,0,0,0.05);
 }
 
 h1,
@@ -33,6 +33,14 @@ a {
 label,
 input {
   display: block;
+}
+
+.content {
+  background-color: white;
+  max-width: 800px;
+  margin: 25px auto;
+  padding: 25px 50px;
+  border-radius: 25px;
 }
 
 
@@ -126,11 +134,12 @@ textarea {
   box-shadow: 0 2px 0 rgba(0,0,0,0.2) inset;
   margin-top: 10px;
   border-radius: 5px;
-  transition: border 1s, box-shadow 1s, background-color 1s;
+  border: 3px solid transparent;
+  transition: border 0.5s, box-shadow 0.5s, background-color 0.5s;
 }
 
 #zip_code {
-  max-width: 50%;
+  max-width: 150px;
 }
 
 option {
@@ -172,7 +181,7 @@ button {
   border-width: 1px 1px 2px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1);
   margin: 15px auto 0;
-  transition: color 1s, font-size 1s, box-shadow 1s;
+  transition: color 0.2s, font-size 0.2s, box-shadow 0.2s;
 }
 
 .main-footer {
@@ -230,8 +239,13 @@ textarea:focus{
 button:hover,
 button:focus {
   color: blanchedalmond;
-  font-size: 1.3em;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+  box-shadow: 0 3px 5px rgba(0,0,0,0.8);
+}
+
+button:active {
+  border: none;
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.8) inset;
 }
 
 ::-webkit-input-placeholder {
