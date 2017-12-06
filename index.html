@@ -28,91 +28,105 @@
 
           <legend class="bold">Contact Information</legend>
 
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="user_name" placeholder="Required" required>
+          <div class="input">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="user_name" placeholder="Required" required>
+          </div>
 
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="user_email" placeholder="Required" required>
+          <div class="input">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="user_email" placeholder="Required" required>
+          </div>
 
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="user_phone">
+          <div class="input">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="user_phone" placeholder="(555)555-5555">
+          </div>
 
-          <label for="street">Street Address</label>
-          <input type="text" id="street" name="user_street">
+          <div class="input">
+            <label for="street">Street Address</label>
+            <input type="text" id="street" name="user_street" placeholder="123 Avenue St">
+          </div>
 
-          <label for="city">City</label>
-          <input type="text" id="city" name="user_city">
+          <div class="input">
+            <label for="city">City</label>
+            <input type="text" id="city" name="user_city">
+          </div>
 
-          <label for="state">State</label>
-          <select id="State" name="user_state">
-            <option selected>Choose State</option>
-            <optgroup label="State">
-              <option>Alabama - AL</option>
-              <option>Alaska - AK</option>
-              <option>Arizona - AZ</option>
-              <option>Arkansas - AR</option>
-              <option>California - CA</option>
-              <option>Colorado - CO</option>
-              <option>Connecticut - CT</option>
-              <option>Delaware - DE</option>
-              <option>Florida - FL</option>
-              <option>Georgia - GA</option>
-              <option>Hawaii - HI</option>
-              <option>Idaho - ID</option>
-              <option>Illinois - IL</option>
-              <option>Indiana - IN</option>
-              <option>Iowa - IA</option>
-              <option>Kansas - KS</option>
-              <option>Kentucky - KY</option>
-              <option>Louisiana - LA</option>
-              <option>Maine - ME</option>
-              <option>Maryland - MD</option>
-              <option>Massachusetts - MA</option>
-              <option>Michigan - MI</option>
-              <option>Minnesota - MN</option>
-              <option>Mississippi - MS</option>
-              <option>Missouri - MO</option>
-              <option>Montana - MT</option>
-              <option>Nebraska - NE</option>
-              <option>Nevada - NV</option>
-              <option>New Hampshire - NH</option>
-              <option>New Jersey - NJ</option>
-              <option>New Mexico - NM</option>
-              <option>New York - NY</option>
-              <option>North Carolina - NC</option>
-              <option>North Dakota - ND</option>
-              <option>Ohio - OH</option>
-              <option>Oklahoma - OK</option>
-              <option>Oregon - OR</option>
-              <option>Pennsylvania - PA</option>
-              <option>Rhode Island - RI</option>
-              <option>South Carolina - SC</option>
-              <option>South Dakota - SD</option>
-              <option>Tennessee - TN</option>
-              <option>Texas - TX</option>
-              <option>Utah - UT</option>
-              <option>Vermont - VT</option>
-              <option>Virginia - VA</option>
-              <option>Washington - WA</option>
-              <option>West Virginia - WV</option>
-              <option>Wisconsin - WI</option>
-              <option>Wyoming - WY</option>
-            </optgroup>
-            <optgroup label="Territory">
-              <option>American Samoa - AS</option>
-              <option>District of Columbia - DC</option>
-              <option>Federated States of Micronesia - FM</option>
-              <option>Guam - GU</option>
-              <option>Marshall Islands - MH</option>
-              <option>Northern Mariana Islands - MP</option>
-              <option>Palau - PW</option>
-              <option>Puerto Rico - PR</option>
-              <option>Virgin Islands - VI</option>
-            </optgroup>
-          </select>
+          <div class="input">
+            <label for="state">State</label>
+            <select id="state" name="user_state">
+              <option selected>Choose State</option>
+              <optgroup label="State">
+                <option>Alabama - AL</option>
+                <option>Alaska - AK</option>
+                <option>Arizona - AZ</option>
+                <option>Arkansas - AR</option>
+                <option>California - CA</option>
+                <option>Colorado - CO</option>
+                <option>Connecticut - CT</option>
+                <option>Delaware - DE</option>
+                <option>Florida - FL</option>
+                <option>Georgia - GA</option>
+                <option>Hawaii - HI</option>
+                <option>Idaho - ID</option>
+                <option>Illinois - IL</option>
+                <option>Indiana - IN</option>
+                <option>Iowa - IA</option>
+                <option>Kansas - KS</option>
+                <option>Kentucky - KY</option>
+                <option>Louisiana - LA</option>
+                <option>Maine - ME</option>
+                <option>Maryland - MD</option>
+                <option>Massachusetts - MA</option>
+                <option>Michigan - MI</option>
+                <option>Minnesota - MN</option>
+                <option>Mississippi - MS</option>
+                <option>Missouri - MO</option>
+                <option>Montana - MT</option>
+                <option>Nebraska - NE</option>
+                <option>Nevada - NV</option>
+                <option>New Hampshire - NH</option>
+                <option>New Jersey - NJ</option>
+                <option>New Mexico - NM</option>
+                <option>New York - NY</option>
+                <option>North Carolina - NC</option>
+                <option>North Dakota - ND</option>
+                <option>Ohio - OH</option>
+                <option>Oklahoma - OK</option>
+                <option>Oregon - OR</option>
+                <option>Pennsylvania - PA</option>
+                <option>Rhode Island - RI</option>
+                <option>South Carolina - SC</option>
+                <option>South Dakota - SD</option>
+                <option>Tennessee - TN</option>
+                <option>Texas - TX</option>
+                <option>Utah - UT</option>
+                <option>Vermont - VT</option>
+                <option>Virginia - VA</option>
+                <option>Washington - WA</option>
+                <option>West Virginia - WV</option>
+                <option>Wisconsin - WI</option>
+                <option>Wyoming - WY</option>
+              </optgroup>
+              <optgroup label="Territory">
+                <option>American Samoa - AS</option>
+                <option>District of Columbia - DC</option>
+                <option>Federated States of Micronesia - FM</option>
+                <option>Guam - GU</option>
+                <option>Marshall Islands - MH</option>
+                <option>Northern Mariana Islands - MP</option>
+                <option>Palau - PW</option>
+                <option>Puerto Rico - PR</option>
+                <option>Virgin Islands - VI</option>
+              </optgroup>
+            </select>
+          </div>
 
-          <label for="zip_code">Zip Code</label>
-          <input type="text" id="zip_code" name="user_zip_code">
+          <div class="input">
+            <label for="zip_code">Zip Code</label>
+            <input type="text" id="zip_code" name="user_zip_code">
+          </div>
         </fieldset>
 
         <fieldset>
@@ -120,7 +134,7 @@
 
           <p>Select the letters you would like to receive</p>
           <div class="checkbox">
-            <input class="inline" id="html_news" type="checkbox" name="newsletter" value="html_news"><label class="inline" for="html_news">HTML News</label>
+            <input class="inline" id="html_news" type="checkbox" name="newsletter" value="html_news" checked><label class="inline" for="html_news">HTML News</label>
           </div>
 
           <div class="checkbox">
@@ -134,14 +148,14 @@
           <p>Newsletter format</p>
 
           <div class="radio">
-            <input class="inline" id="html" type="radio" name="format" value="html"><label class="inline" for="html">HTML</label>
+            <input class="inline" id="html" type="radio" name="format" value="html" checked><label class="inline" for="html">HTML</label>
           </div>
 
           <div class="radio">
             <input class="inline" id="plain_text" type="radio" name="format" value="plain_text"><label class="inline" for="plain_text">Plain Text</label>
           </div>
 
-          <p>Other topics you would like to hear about</p>
+          <label id="topics-label" for="topics">Other topics you would like to hear about</label>
 
           <textarea id="topics" name="user_topics"></textarea>
 
