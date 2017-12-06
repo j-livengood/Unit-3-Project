@@ -251,21 +251,25 @@ button:active {
 ::-webkit-input-placeholder {
   text-align: right;
   font-style: italic;
+  padding-right: 5px;
 }
 
 :-moz-placeholder {
   text-align: right;
   font-style: italic;
+  padding-right: 5px;
 }
 
 ::-moz-placeholder {
   text-align: right;
   font-style: italic;
+  padding-right: 5px;
 }
 
 :-ms-input-placeholder {
   text-align: right;
   font-style: italic;
+  padding-right: 5px;
 }
 
 
