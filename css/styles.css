@@ -37,9 +37,9 @@ input {
 
 .content {
   background-color: white;
-  max-width: 800px;
+  max-width: 95%;
   margin: 25px auto;
-  padding: 25px 50px;
+  padding: 25px 25px;
   border-radius: 25px;
 }
 
@@ -272,6 +272,10 @@ button:active {
 /* ----- Media Queries -----*/
 
 @media (min-width: 768px) {
+  
+  .content {
+    max-width: 800px;
+  }
   
   .banner-wrapper,
   .form-wrapper {
